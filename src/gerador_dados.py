@@ -30,4 +30,4 @@ df_propostas = pd.DataFrame(dados, columns=colunas)
 
 # Exibindo as primeiras linhas
 print(df_propostas.head())
-df_propostas.to_excel("propostas.xlsx", index=False)
+df_propostas.to_excel("src/propostas.xlsx", index=False)
